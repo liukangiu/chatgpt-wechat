@@ -73,7 +73,7 @@ def on_rcv_chatroom_msg(from_wxid, msg):
 
 def on_rcv_p2p_txt(from_wxid, msg_txt):#收到个人消息
     
-    res = talk_with_robot(msg_txt,"Python学习实战")
+    res = talk_with_robot(msg_txt,"2084222530")
     # print("收到文本消息", from_wxid, msg_txt)
     send_txt_msg(from_wxid, res)
     # send_img_msg(from_wxid, 'C:\\Users\\Administrator\\Desktop\\6.gif')
@@ -256,7 +256,7 @@ def wechat():
 
 
 if __name__ == '__main__':
-    openai.api_key = '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'
+    openai.api_key = ''
     msglogname='msglog'
     hwhitename=0
     whitename=[]
